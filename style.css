@@ -1,0 +1,72 @@
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+
+#page1{
+    width: 100vw;
+    height: 100vh;
+    background-color:#c3bbb2;
+    position: relative;
+}
+
+@font-face {
+    font-family: "light";
+    src: url(./font/5f242a694256f02b944d5767_EditorialNew-Light.ttf);
+}
+
+@font-face {
+    font-family: "medium";
+    src: url(./font/5f242a69b1577e63266b4d72_DomaineDispCondMedium.ttf);
+}
+
+#page1{
+    overflow: auto;
+}
+
+@font-face {
+    font-family: "canopee";
+    src: url(./font/616fd1dd00cf6c70f978fc69_Canopee.ttf);
+}
+
+.light{
+    font-family: "light" ,"serif";
+    font-weight: normal;
+}
+
+.medium{
+    font-family: "medium" ,"serif";
+    font-weight: normal;
+}
+
+.canopee{
+    font-family: "canopee" ,"serif";
+    font-weight: normal;
+}
+
+.culam1 .img-div{
+    height: 60%;
+    width: 100%;
+   overflow: hidden;
+}
+
+.img-div{
+    width: 100%;
+    height: '100%';
+    object-fit: cover;
+    transition: all ease 1.8s;
+    
+}
+
+.img-div:hover img{
+    scale: 1.2;
+     transition: all ease 1.8s;
+
+}
+
+.culam2 .img-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
