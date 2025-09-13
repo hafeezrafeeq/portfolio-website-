@@ -4,7 +4,8 @@ body {
     height: 100%;
     background-color: #000;
     overflow-x: hidden;
-   
+    box-sizing: border-box;
+
 
 }
 
@@ -18,8 +19,8 @@ body {
     height: 100vh;
     background-color: #c5beb4;
     position: relative;
-    
- 
+
+
 }
 
 @font-face {
@@ -93,9 +94,33 @@ body {
     line-height: 120px;
 }
 
+.line3 {
+    font-family: "light", "serif";
+    line-height: 40px;
+}
+
+
+.line4 {
+    font-family: "light", "serif";
+    line-height: 55px;
+}
+
+.line5 {
+    font-family: "canopee", "serif";
+    line-height: 26vw;
+    letter-spacing: -.01em;
+    text-transform: uppercase;
+}
+
+.line6 {
+    font-family: "canopee", "serif";
+    line-height: 20vw;
+    letter-spacing: -.01em;
+    text-transform: uppercase;
+}
 
 .box1 {
-    overflow: hidden;
+    overflow-y: hidden;
 
 }
 
@@ -105,4 +130,27 @@ body {
     object-fit: cover;
     transition: all ease 1.8s;
 
+}
+
+.cta-h {
+    width: 80%;
+    height: 20vh;
+    background-color: #d3cbc2;
+    border: 1px solid rgba(29, 29, 27, .5);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    display: flex;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+.space{
+     font-family: "canopee", "serif";
+    line-height: 20vw;
+    letter-spacing: -.01em;
+    text-transform: uppercase;
 }
