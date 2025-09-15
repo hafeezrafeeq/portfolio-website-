@@ -4,13 +4,13 @@
 //     y: "100vh",
 //     scale:0.5,
 //     duration:0,
-    
+
 // })
 
 // tl.to("#page1", {
 //     y: "0vh",
 //     duration:1,
-  
+
 // })
 
 // tl.to("#page1", {
@@ -18,3 +18,22 @@
 //     scale:1,
 //     duration:1,  
 // })
+
+const cards = document.querySelectorAll(".card");
+
+cards.forEach((card, index) => {
+ 
+    card.onmouseenter = () => {
+        cards.forEach((otherCard, i) => {
+            if (i > index) {
+                otherCard.classList.add("shift");
+            }
+        });
+    };
+
+    card.onmouseleave = () => {
+        cards.forEach((otherCard) => {
+            otherCard.classList.remove("shift");
+        });
+    };
+});

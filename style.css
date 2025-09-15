@@ -119,6 +119,13 @@ body {
     text-transform: uppercase;
 }
 
+.line7 {
+
+    line-height: 1.5vw;
+    letter-spacing: -.01em;
+    text-transform: uppercase;
+}
+
 .box1 {
     overflow-y: hidden;
 
@@ -148,9 +155,35 @@ body {
 }
 
 
-.space{
-     font-family: "canopee", "serif";
+.space {
+    font-family: "canopee", "serif";
     line-height: 20vw;
     letter-spacing: -.01em;
     text-transform: uppercase;
 }
+
+.shift {
+    transform: translateX(260px);
+}
+
+.no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE & Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.animat-line {
+
+   animation: moveline 2s ease-in-out infinite ;
+   animation-timing-function: linear;
+  
+}
+ @keyframes moveline {
+      from {
+        transform: translateX(0);  
+      }
+      to {
+        transform: translateX(cale(-100%)); 
+      }
+    }
