@@ -175,15 +175,17 @@ body {
 
 .animat-line {
 
-   animation: moveline 2s ease-in-out infinite ;
+   animation: moveline 3s infinite ;
    animation-timing-function: linear;
   
 }
+
+
  @keyframes moveline {
       from {
         transform: translateX(0);  
       }
       to {
-        transform: translateX(cale(-100%)); 
+        transform: translateX(calc(-100% - 24px)); 
       }
     }
