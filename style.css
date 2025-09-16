@@ -175,17 +175,24 @@ body {
 
 .animat-line {
 
-   animation: moveline 3s infinite ;
-   animation-timing-function: linear;
-  
+    animation: moveline 5s infinite;
+    animation-timing-function: linear;
+
 }
 
 
- @keyframes moveline {
-      from {
-        transform: translateX(0);  
-      }
-      to {
-        transform: translateX(calc(-100% - 24px)); 
-      }
+@keyframes moveline {
+    from {
+        transform: translateX(0);
     }
+
+    to {
+        transform: translateX(calc(-100% - 24px));
+    }
+}
+
+
+
+.email-me:hover .animat-line {
+    animation-play-state: paused;
+}
