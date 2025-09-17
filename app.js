@@ -3,26 +3,26 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
-const  tl =  gsap.timeline()
+// const  tl =  gsap.timeline()
 
-tl.to("#page1", {
-    y: "100vh",
-    scale:0.5,
-    duration:0,
+// tl.to("#page1", {
+//     y: "100vh",
+//     scale:0.5,
+//     duration:0,
 
-})
+// })
 
-tl.to("#page1", {
-    y: "0vh",
-    duration:1,
+// tl.to("#page1", {
+//     y: "0vh",
+//     duration:1,
 
-})
+// })
 
-tl.to("#page1", {
-    rotate: 360,
-    scale:1,
-    duration:1,  
-})
+// tl.to("#page1", {
+//     rotate: 360,
+//     scale:1,
+//     duration:1,  
+// })
 
 const cards = document.querySelectorAll(".card");
 

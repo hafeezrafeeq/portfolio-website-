@@ -19,8 +19,6 @@ body {
     height: 100vh;
     background-color: #c5beb4;
     position: relative;
-
-
 }
 
 @font-face {
@@ -91,12 +89,12 @@ body {
 
 .line1 {
     font-family: "canopee", "serif";
-    line-height: 120px;
+    line-height: 8vw;
 }
 
 .line3 {
     font-family: "light", "serif";
-    line-height: 40px;
+    line-height: 2.8vw;
 }
 
 
