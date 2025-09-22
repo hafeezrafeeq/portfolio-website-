@@ -5,20 +5,14 @@ body {
     background-color: #000;
     overflow-x: hidden;
     box-sizing: border-box;
-
-
 }
-
-
-
-
-
 
 #page1 {
     width: 100vw;
     height: 100vh;
     background-color: #c5beb4;
     position: relative;
+    overflow: auto;
 }
 
 @font-face {
@@ -29,10 +23,6 @@ body {
 @font-face {
     font-family: "medium";
     src: url(./font/5f242a69b1577e63266b4d72_DomaineDispCondMedium.ttf);
-}
-
-#page1 {
-    overflow: auto;
 }
 
 @font-face {
@@ -66,13 +56,11 @@ body {
     height: '100%';
     object-fit: cover;
     transition: all ease 1.8s;
-
 }
 
 .img-div:hover img {
     scale: 1.2;
     transition: all ease 1.8s;
-
 }
 
 .culam2 .img-div {
@@ -80,7 +68,6 @@ body {
     width: 100%;
     overflow: hidden;
 }
-
 
 .line {
     font-family: "canopee", "serif";
@@ -99,7 +86,6 @@ body {
     font-family: "light", "serif";
     line-height: 2.8vw;
 }
-
 
 .line4 {
     font-family: "light", "serif";
@@ -121,7 +107,6 @@ body {
 }
 
 .line7 {
-
     line-height: 1.5vw;
     letter-spacing: -.01em;
     text-transform: uppercase;
@@ -129,7 +114,6 @@ body {
 
 .box1 {
     overflow-y: hidden;
-
 }
 
 .div-img-2 {
@@ -137,7 +121,6 @@ body {
     height: '100%';
     object-fit: cover;
     transition: all ease 1.8s;
-
 }
 
 .cta-h {
@@ -154,7 +137,6 @@ body {
     margin: auto;
     margin-top: 20px;
 }
-
 
 .space {
     font-family: "canopee", "serif";
@@ -175,12 +157,9 @@ body {
 }
 
 .animat-line {
-
     animation: moveline 5s infinite;
     animation-timing-function: linear;
-
 }
-
 
 @keyframes moveline {
     from {
@@ -191,8 +170,6 @@ body {
         transform: translateX(calc(-100% - 24px));
     }
 }
-
-
 
 .email-me:hover .animat-line {
     animation-play-state: paused;
