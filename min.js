@@ -1,8 +1,6 @@
 const scroll = new LocomotiveScroll({
-    el: document.querySelector('#page1'),
-    smooth: true,      // smooth scroll enable
-    multiplier: 1,     // speed control (kam zyada kar sakte ho)
-    lerp: 0.1          // inertia smoothness (0.1 = smooth, 0.05 = aur smooth)
+    el: document.querySelector("#page1"),
+    smooth: true,
 });
 
 const tl = gsap.timeline()
