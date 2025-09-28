@@ -7,10 +7,12 @@ body {
     box-sizing: border-box;
 }
 
+
+
 #page1 {
     width: 100vw;
-    height: 100vh;
-    background-color: #c5beb4;
+    height: 100vh;  
+    background-color: #c5beb4; 
     position: relative;
     overflow: auto;
 }
@@ -145,9 +147,6 @@ body {
     text-transform: uppercase;
 }
 
-.shift {
-    transform: translateX(260px);
-}
 
 .no-scrollbar {
     -ms-overflow-style: none;
@@ -165,7 +164,7 @@ body {
     from {
         transform: translateX(0);
     }
-
+    
     to {
         transform: translateX(calc(-100% - 24px));
     }
@@ -173,4 +172,9 @@ body {
 
 .email-me:hover .animat-line {
     animation-play-state: paused;
+}
+
+
+.shift {
+    transform: translateX(260px);
 }
